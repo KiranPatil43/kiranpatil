@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# build output
+dist/
+**/dist/
+
+# release artifacts
+*.zip
+
+# logs / os
+*.log
+.DS_Store
+
+# local editor / tool state
+.claude/settings.local.json
+
+# vendored benchmark corpus (cloned separately, third-party repo)
+bench/miniwob-plusplus/
+
+# throwaway scripts
+bench/_tokentest.mjs
